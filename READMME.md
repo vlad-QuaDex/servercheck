@@ -1,2 +1,0 @@
-
-check whether one of our servers has access to other servers on our internal network. To make this a little easier for ourselves, we've decided to use Python to write a CLI that can take either a JSON file with servers and ports to check or a list of host/port combinations to make requests to. In this hands-on lab, we will take a list of server/port combinations and make HTTP requests concurrently so that we can get the status of our servers as quickly as possible.
